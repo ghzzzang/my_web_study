@@ -1,0 +1,20 @@
+h1 {
+    font-family: Arial;
+}
+
+h2 {
+    font-family: Tahoma;
+}
+
+h3 {
+    font-style: italic;
+}
+
+h4 {
+    font-family: Lucida Bright;
+}
+
+h5 {
+    font-family: Lucida Grande, Arial, Tahoma;
+    /* 대체 백업 폰트를 쉼표로 지정  */
+}
