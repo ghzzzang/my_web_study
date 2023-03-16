@@ -1,1 +1,19 @@
+h1 {
+    text-align: center;
+    font-weight: normal;
+    text-decoration: blue underline wavy;
+}
 
+h2 {
+    text-align: right;
+    text-decoration: purple underline wavy;
+    font-weight: 100;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 2;
+}
