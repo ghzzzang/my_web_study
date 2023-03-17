@@ -1,0 +1,19 @@
+body {
+    background-color: #fefae0;
+}
+
+h1,
+h2 {
+    color: #023047;
+}
+
+button {
+    background-color: #ffddd2;
+}
+
+#signup {
+    background-color: #83c5be;
+    font-style: italic;
+    font-weight: bold;
+
+}
