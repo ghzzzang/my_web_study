@@ -1,0 +1,24 @@
+/* 인접 선택자 */
+/* 요소에 인접해 있는 요소를 스타일한다 */
+
+/* input 옆에 button을 스타일 */
+
+input+button {
+    color: aqua;
+    background-color: pink;
+}
+
+h2+button {
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+    color: magenta;
+}
+
+
+/* 직계 자손 선택자 */
+
+ul>a {
+    font-weight: bold;
+    color: purple;
+}
