@@ -1,0 +1,13 @@
+/* 속성 선택자 */
+/* 특정 속성을 가진 요소를 스타일한다. */
+input[type="password"] {
+    color: green;
+}
+
+a {
+    display: block;
+}
+
+a[href*="google"] {
+    color: pink;
+}
