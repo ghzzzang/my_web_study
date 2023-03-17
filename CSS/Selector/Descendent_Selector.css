@@ -1,0 +1,18 @@
+span a {
+    font-style: italic;
+    font-weight: bold;
+    background-color: brown;
+    font-size: 30px;
+}
+
+/* 요소 사이의 띄어쓰기를 하면 요소 안에 있는 요소에 대한 스타일을 지정  */
+
+/* 클래스에서도 자손 선택자를 만들 수 있다.  */
+/* id도 똑같음  */
+.tag a {
+    font-size: normal;
+    font-style: normal;
+    font-weight: normal;
+    background-color: white;
+    color: aqua;
+}
