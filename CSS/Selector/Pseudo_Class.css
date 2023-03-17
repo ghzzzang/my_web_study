@@ -1,0 +1,40 @@
+/* 슈도 클래스(가상클래스) */
+/* 태그의 끝에 붙여 요소에 대한 작동방식을 설정해준다. */
+
+/* :hover */
+/* 요소에 커서를 갖다 대면 속성이 변한다. */
+
+button:hover {
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+    background-color: blue;
+    color: magenta;
+}
+
+h1:hover {
+    font-size: small;
+    font-weight: lighter;
+}
+
+a:hover {
+    text-decoration: line-through;
+}
+
+div button:active {
+    font-size: small;
+    background-color: brown;
+    color: blue;
+
+}
+
+input[type="checkbox"]:checked+label {
+    color: red;
+
+}
+
+section:nth-of-type(2n) {
+
+    background: aqua;
+
+}
