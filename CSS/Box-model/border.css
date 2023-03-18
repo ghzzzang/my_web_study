@@ -1,0 +1,51 @@
+/* border(테두리) 속성 */
+/* border-width */
+/* border-color */
+/* border-style */
+/* box-sizing */
+/* border-radius */
+
+/* 크게 WIDTH, COLOR, STYLE로 나뉜다. */
+
+/* 테두리의 방향 마다 색깔과 스타일을 바꿀 수 있다. */
+
+h1 {
+    width: 300px;
+    height: 200px;
+    background-color: aqua;
+}
+
+div {
+    color: white;
+    width: 200px;
+    height: 250px;
+
+}
+
+
+
+#one {
+    background-color: #ed15d8;
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+    box-sizing: border-box;
+
+
+}
+
+#two {
+    background-color: #a60c97;
+    border-width: 5px;
+    border-color: #2be016;
+    border-style: inset;
+    box-sizing: border-box;
+}
+
+#three {
+    background-color: #63075a;
+    border: 4px solid black;
+    border-left-style: dotted;
+    border-radius: 15px;
+
+}
