@@ -1,0 +1,16 @@
+/* width-height */
+/* 요소의 가로 세로 크기를 정해준다. */
+
+/* 즉, 컨텐츠가 들어가는 크기를 조정한다. */
+
+div {
+    width: 200px;
+    height: 250px;
+    background-color: magenta;
+}
+
+h1 {
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+}
