@@ -7,3 +7,7 @@
 }
 
 /* id 요소로 스타일 했지만 인라인 스타일로 인해 적용되지 않는다. */
+
+h1{
+    background-color: aqua !important; 
+}
