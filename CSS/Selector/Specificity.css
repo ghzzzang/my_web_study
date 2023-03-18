@@ -1,0 +1,34 @@
+/* CSS 우선도 */
+/* 스타일이 적용될때 어떤 스타일이 적용될지 선택한다. */
+/* 구체적으로 스타일을 지정해주면 우선순위가 올라가 적용된다. */
+
+
+button {
+    display: block;
+    margin: 10px;
+}
+
+
+button:hover {
+    background-color: olive;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sec:hover {
+    background-color: aqua;
+    color: black;
+    font-size: 30px;
+}
+
+#sec:hover {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+/* 보통의 우선순위 */
+/* ID > Class > Normal Element*/
+
+/* 충돌되는 속성에 한해 적용된다. */
