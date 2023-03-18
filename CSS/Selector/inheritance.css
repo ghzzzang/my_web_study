@@ -1,0 +1,21 @@
+/* 상속 선택자  */
+/* 자신의 스타일이 아니지만 상위 요소의 스타일을 상속받음 */
+/* 상속받기를 원치 않으면 명시해줘야한다. */
+
+body {
+    color: blue;
+}
+
+h1 {
+    color: purple;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+/* 일부 요소는 스타일을 상속 받지 않는다 */
+/* 상속 받으려면 inherit을 속성값으로 한다 */
+
+button,
+input {
+    color: inherit;
+}
