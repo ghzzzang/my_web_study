@@ -1,0 +1,66 @@
+/* position 문서상 요소를 배치하는 방법 */
+
+div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.one {
+    background-color: #03fce8;
+}
+
+.two {
+    background-color: #0398fc;
+}
+
+.three {
+    background-color: #03fcb6;
+}
+
+/* static */
+/* 요소의 기본값 위치를 바꿀 수 없다. */
+#static #middle {
+    position: static;
+    top: 100px;
+}
+
+/* relative */
+/* 요소의 기본값 위치를 바꿀 수 있다. */
+/* 차지하는 공간은 static과 같다 */
+
+#relative #middle {
+    position: relative;
+    top: 50px;
+    right: -50px;
+
+}
+
+/* absolute  */
+/* 요소를 기본 문서흐름에서 제거시키고 */
+/* 상대적인 위치에 지정한다. */
+
+#absolute {
+    position: relative;
+}
+
+#absolute #middle {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+
+}
+
+
+/* fixed */
+/* 요소를 기본 문서 흐름에서 제거시키고 */
+/* 상대적인 위치에 고정시킨다 */
+/* 스크롤할때도 맨 위에 유지되게 만드는 안내 바를 만들때 사용하곤 한다. */
+
+#fixed #middle {
+    position: fixed;
+    top: 30px;
+    left: 30px;
+}
