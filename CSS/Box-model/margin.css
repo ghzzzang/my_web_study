@@ -1,0 +1,51 @@
+/* margin(여백) */
+/* 요소와 요소 사이의 여백(공간크기)를 정하다. */
+/* 웹 페이지를 만들때 body의 여백을 없애곤 한다. */
+
+body {
+    margin: 0;
+}
+
+div {
+    width: 200px;
+    height: 250px;
+    color: white;
+}
+
+h1 {
+    width: 200px;
+    height: 100px;
+    background-color: violet;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+
+/* 요소안의 요소에서도 여백이 적용된다. */
+
+span {
+    margin-left: 20px;
+    /* margin-top:20px; */
+}
+
+#one {
+    background-color: #05f3f7;
+    border: 6px solid black;
+    box-sizing: border-box;
+    margin: 50px 20px;
+    /* top & bottom | left & right */
+}
+
+#two {
+    background-color: #02abad;
+    border: 6px dotted yellow;
+    box-sizing: border-box;
+    margin-left: 200px;
+    margin-bottom: 50px;
+
+
+}
+
+#three {
+    background-color: #036e70;
+}
