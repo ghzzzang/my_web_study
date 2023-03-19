@@ -1,0 +1,19 @@
+section {
+    width: 500px;
+    height: 500px;
+    background-color: magenta;
+
+}
+
+/* 알파 채널 */
+/* 배경색의 보이는 선명도를  설정한다.  */
+/* 0에가 가까울수록 색깔이  없어진다.*/
+
+
+#rgba {
+    width: 50%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.701);
+    /* hexadecimal 16진수도 가능하다. */
+    /* background-color: #fb0d0dd0; */
+}

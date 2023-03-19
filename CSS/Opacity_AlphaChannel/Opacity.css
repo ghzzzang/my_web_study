@@ -1,0 +1,19 @@
+/* 불투명도 */
+/* 요소안의  요소에 대해서도 투명도를 나타낼수있다.*/
+
+section {
+    background-color: magenta;
+    width: 500px;
+    height: 500px;
+
+}
+
+#opacity {
+    background-color: yellow;
+    width: 50%;
+    height: 50%;
+    opacity: 0.7;
+
+
+
+}
