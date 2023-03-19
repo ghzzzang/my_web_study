@@ -1,0 +1,25 @@
+/* Relative Units */
+
+/* %: 부모요소의 속성값을 기반으로 만드는 단위 */
+/* 대부분 컨텐츠 넓이나 높이에 적용된다. */
+
+h1 {
+    font-size: 60px;
+    border: 1px solid black;
+    line-height: 200%;
+    /* line-height: 120px; */
+    /* line-height(간격) 폰트 크기의 200%에 해당하는 간격 */
+}
+
+section {
+    background-color: #3fff0a;
+    width: 400px;
+    height: 400px;
+}
+
+div {
+    background-color: #279c06;
+    width: 50%;
+    height: 50%;
+    /* 부모인 section에 50%로 크기가 지정 */
+}
