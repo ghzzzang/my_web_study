@@ -1,0 +1,31 @@
+/* rem (root em)*/
+
+/* em의 단점 */
+/* em을 쓰면 속성값이 의도치 않게 증감할수 있다.*/
+
+
+
+/* ul {
+    font-size: 1.5em;
+} */
+
+/* ul안에 ul, ul안에 ul.. */
+
+html {
+    font-size: 10px;
+}
+
+/* rem은 <html>요소의 속성 크기에 상대적이다. */
+/* 기본 html 요소의 폰트 크기 16px */
+
+#rems h3 {
+    font-size: 3rem;
+}
+
+#rems h2 {
+    font-size: 2rem;
+}
+
+#rems ul {
+    font-size: 2rem;
+}
