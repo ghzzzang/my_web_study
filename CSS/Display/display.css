@@ -1,0 +1,36 @@
+/* display 속성 */
+/* display 속성으로 요소의 특성을 바꿀 수 있다.*/
+/* inline, bolck, inline-block */
+
+h1 {
+    background-color: aqua;
+    border: 1px solid black;
+
+    width: 200px;
+    height: 50px;
+    padding: 10px 20px;
+    margin: 100px;
+
+}
+
+/* inline 요소는 width,height등의 속성에 제한이 생긴다. */
+span {
+    background-color: brown;
+    border: 1px solid black;
+
+    width: 100px;
+    height: 50px;
+    padding: 10px 20px;
+}
+
+/* inline-block */
+/* block 요소에서 적용되는 height,width가 적용된다. */
+
+div {
+    background-color: teal;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border: 6px solid black;
+    margin: 50px;
+}
