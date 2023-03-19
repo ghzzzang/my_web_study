@@ -1,0 +1,36 @@
+/* em */
+/* 부모요소의 속성에서의 배수 */
+
+article {
+    font-size: 20px;
+}
+
+
+h2 {
+    font-size: 2em;
+    margin-left: 2em;
+    /* margin에서의 em은 현재 요소의 
+    글꼴 크기에 상대적이다. */
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 0.8em;
+    /* font-size: 16px; */
+    /* 부모가 20px, 그래서 0.8배인 16px과 같다. */
+}
+
+button {
+    font-size: 1em;
+    padding: 0 1em;
+    /* padding도 margin과 같이 현재 폰트크기에
+    상대적이다. */
+    border-radius: 0.5em;
+    background-color: aquamarine;
+    color: white;
+    font-weight: bold;
+    border: 1px solid black;
+}
