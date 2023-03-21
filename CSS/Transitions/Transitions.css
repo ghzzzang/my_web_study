@@ -1,0 +1,57 @@
+/* transitions */
+/* 속성이 바뀌는 시간 */
+/* 속성이 변경되는것에 대한 애니메이션 효과를 준다.  */
+
+
+.circle {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: magenta;
+    transition: background-color 5s, border-radius 5s;
+    /* 해당하는 속성이 얼마나 걸려 바뀌는지 속성 이름을 쓰고 지정해준다. */
+    /* 5초에 걸쳐 배경색과 곡률이 바뀐다. */
+}
+
+.circle:hover {
+
+    background-color: cyan;
+    border-radius: 20%;
+}
+
+section div {
+    width: 100px;
+    height: 100px;
+    background-color: springgreen;
+    margin: 20px 0;
+    transition: margin-left 3s;
+}
+
+/* section을 hover 하면 div가 움직인다. */
+section:hover div {
+    margin-left: 500px;
+}
+
+/* trantion timing function */
+/* 애니메이션 효과가 얼마의 시간이 걸리는지 명시함  */
+
+div:nth-of-type(1) {
+    transition-timing-function: ease-in;
+
+}
+
+div:nth-of-type(2) {
+
+    transition-timing-function: ease out;
+}
+
+div:nth-of-type(3) {
+
+    transition-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+
+}
+
+div:nth-of-type(4) {
+
+    transition-timing-function: cubic-bezier(0.85, 0, 0.1, 0);
+}
