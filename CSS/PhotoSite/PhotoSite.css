@@ -1,0 +1,30 @@
+body {
+    margin: auto;
+}
+
+nav {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 35px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+body section{
+    margin-left: 20px;
+}
+
+hr {
+    margin-left: 20px;
+}
+
+div {
+    margin: 20px 20px;
+}
+
+/* 사진 크기조절 */
+img {
+
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+}
