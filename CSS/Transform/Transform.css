@@ -1,0 +1,84 @@
+/* transform */
+/* 요소를 변형한다. */
+
+h1 {
+    border: 3px solid black;
+    width: 200px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 5px 2px;
+    font-family: Georgia;
+    font-weight: normal;
+}
+
+h1:nth-of-type(1n) {
+    background-color: blue;
+}
+
+h1:nth-of-type(2n) {
+    background-color: aquamarine;
+
+}
+
+h1:nth-of-type(3n) {
+    background-color: aqua;
+}
+
+h1:nth-of-type(4n) {
+    background-color: magenta;
+}
+
+/* transform: rotate  */
+/* 요소를 회전 */
+/* 단위는 deg(각도)로 준다. */
+
+section:first-of-type h1:nth-of-type(1) {
+    /* transform-origin: bottom right; */
+    transform: rotate(45deg);
+}
+
+/* scale */
+/* 요소의 크기를 변형한다. */
+
+section:first-of-type h1:nth-of-type(2) {
+    /* transform-origin: bottom right; */
+    transform: scaleY(0.6) scaleX(1.5)
+}
+
+
+/* translate */
+/* 요소의 위치를 움직인다.   */
+
+section:first-of-type h1:nth-of-type(3) {
+    transform: translateX(200px);
+}
+
+section:first-of-type h1:nth-of-type(4) {
+    transform: translate(-25px, 50px);
+}
+
+/* skew */
+/* 요소의 기울기를 정해준다 */
+
+section:nth-of-type(2) h1:nth-of-type(1) {
+    transform: skew(30deg);
+}
+
+section:nth-of-type(2) h1:nth-of-type(2) {
+    transform: skew(10deg, 5deg);
+}
+
+/* 요소 변형 기능을 다양하게 쓸 수있다. */
+
+section:nth-of-type(2) h1:nth-of-type(3) {
+    transform: rotate(-20deg) scale(1.3);
+}
+
+section:nth-of-type(2) h1:nth-of-type(4) {
+    transform: translateX(-200px) rotate(0.5turn);
+}
+
+
+section:nth-of-type(2) {
+    transform: scale(0.7) translate(300px);
+}
