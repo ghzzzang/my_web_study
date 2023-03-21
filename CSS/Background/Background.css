@@ -1,0 +1,28 @@
+/* background 속성 */
+
+/* background-image 요소 안의 배경이미지 */
+
+/* background-position 배경이미지의 시작지점 설정 */
+
+section {
+    background-color: purple;
+    width: 80%;
+    height: 800px;
+    margin: 0 auto;
+
+    /* background-image: url(https://images.unsplash.com/photo-1679231926688-ef9cdab5ed2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1691&q=80);
+    background-size: cover;
+    background-position: center; */
+
+    /* background 속성을 통한 속기법  */
+
+
+    background: center top/cover no-repeat url(https://images.unsplash.com/photo-1679231926688-ef9cdab5ed2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1691&q=80) #db09d8;
+}
+
+h1 {
+    font-size: 100px;
+    color: white;
+
+
+}
